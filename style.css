@@ -1,0 +1,214 @@
+body {
+	margin: 0;
+}
+* {
+	font-family: 'Lato', sans-serif;
+}
+header {
+	width: 100%;
+	background-color: #F6F9F9;
+	padding: 25px 100px;
+}
+#cta {
+	background-image: url(img/intro.png);
+	text-align: center;
+	height: 800px;
+}
+#cta h1 {
+	color: #FFF;
+	font-size: 120px;
+	font-weight: 700;
+	line-height: 47px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 225px;
+	margin-bottom: 60px;
+}
+#cta hr {
+	border-color: #15A4FA;
+	width: 50%;
+	margin-left: 25%;
+}
+#cta p {
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 47px;
+	text-align: center;
+}
+#cta button {
+	background-color: transparent;
+	border-right: transparent;
+	border-bottom: transparent;
+	border-top: 1px solid #15A4FA;
+	border-left: 1px solid #15A4FA;
+	border-radius: 2px;
+	padding: 10px 15px;
+	color: #FFF;
+}
+#cta a {
+	position: relative;
+	top: 100px;
+	color: #FFF;
+}
+#info {
+	background-color: #F6F9F9;
+	padding: 50px;
+	text-align: center;
+}
+#info h2 {
+	color: #2D3950;
+	font-size: 40px;
+	font-weight: 400;
+}
+#info p {
+	width: 74%;
+	margin: 0 auto;
+	color: #999999;
+	font-weight: 400;
+	line-height: 32px;
+}
+#features {
+	padding-left: 13%;
+}
+#features .box {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	margin: 5% 1%;
+	font-weight: 400;
+}
+#features .iconBox {
+	background: linear-gradient(to right, #1E5799 0%, #207CCA 50%, #2989D8 50%, #7DB9E8 100%);
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+.iconBox i {
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 25px;
+	color: #FFF;
+	font-size: 40px;
+}
+.box h4 {
+	color: #2D3950;
+	font-size: 22px;
+	margin-bottom: 3%;
+}
+.box p {
+	color: #999999;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+}
+#work {
+	background-color: #F6F9F9;
+	text-align: center;
+	font-weight: 400;
+	padding: 50px 0;
+}
+#work h2 {
+	color: #2D3950;
+	font-size: 41px;
+	margin: 0;
+}
+#work p {
+	color: #909090;
+	font-size: 15px;
+	line-height: 23px;
+}
+#work .box {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	margin: 2% 1% 0%;
+	font-weight: 400;
+}
+#work img {
+	background-color: red;
+	width: 100%;
+	height: 100%;
+}
+#contact {
+	background-image: url(img/contact.png);
+	height: 500px;
+	background-position: 50%;
+	padding: 100px;
+	text-align: center;
+}
+#contact h2 {
+	color: #FFFFFF;
+	font-size: 41px;
+	font-weight: 400;
+}
+#contact p {
+	color: #999990;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+}
+#contact form {
+	display: block;
+	color: #999990;
+}
+form > input, form > textarea {
+	margin: 1% auto;
+	width: 30%;
+	background-color: transparent;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 1px solid #F6F9F9;
+	color: #FFFFFF;
+}
+form div {
+	width: 40%;
+	margin: 0 auto;
+}
+form div span {
+	position: relative;
+	right: 40px;
+	top: 25px;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 400;
+}
+form div input {
+	border-radius: 25%;
+}
+form div button {
+	position: relative;
+	left: 35px;
+	top: 25px;
+	background-color: transparent;
+	border: 1px solid #15A4FA;
+	border-radius: 2px;
+	padding: 10px 25px;
+	color: #FFF;
+}
+footer {
+	height: 100px;
+	width: 100%;
+	background-color: #F6F9F9;
+}
+footer p {
+	float: left;
+	position: relative;
+	display: inline-block;
+	left: 75px;
+}
+footer #socialMedia {
+	float: right;
+	padding-top: 30px;
+	padding-right: 150px;
+}
+#socialMedia a {
+	background-color: #15A4FA;
+	color: #F6F9F9;
+	padding: 10px;
+	margin-right: 15px;
+}
